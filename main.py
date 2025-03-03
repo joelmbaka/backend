@@ -16,7 +16,7 @@ print("Loaded NVIDIA API Key:", os.getenv("NVIDIA_NIM_API_KEY"))
 
 # Initialize LLM
 llm = LLM(
-    model="nvidia_nim/meta/llama-3.2-3b-instruct",
+    model="nvidia_nim/meta/llama3-70b-instruct",
     temperature=0.7
 )
 
